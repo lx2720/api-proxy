@@ -1,4 +1,6 @@
 # proxy
-npm install
 
+```shell
+npm install
 npm start
+```
