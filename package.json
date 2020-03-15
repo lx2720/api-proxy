@@ -1,0 +1,23 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "proxy",
+  "scripts": {
+    "start": "node proxy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bosspen1/proxy.git"
+  },
+  "keywords": [
+    "node",
+    "proxy"
+  ],
+  "author": "wild",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "4.17.1",
+    "http-proxy-middleware": "^1.0.2"
+  },
+  "dependencies": {}
+}
