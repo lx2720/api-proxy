@@ -10,7 +10,7 @@ function startProxy(name, target) {
     changeOrigin: true,
     proxyTimeout: 6000,
     pathRewrite: {
-      [`/${name}/*`] : '/*'
+      [`/${name}/*`] : '/'
     }
   };
   app.use(`/${name}`, createProxyMiddleware(options));
