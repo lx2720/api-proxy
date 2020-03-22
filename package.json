@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "description": "proxy",
   "scripts": {
-    "start": "node proxy.js"
+    "start": "node api-proxy.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:bosspen1/proxy.git"
+    "url": "git@github.com:bosspen1/api-proxy.git"
   },
   "keywords": [
     "node",
-    "proxy"
+    "api proxy"
   ],
   "author": "wild",
   "license": "ISC",

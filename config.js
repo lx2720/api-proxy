@@ -1,6 +1,10 @@
-const config = { port: 8101, target: 'https://api.binance.com' };
-// const config = { port: 8102, target: 'https://www.bitmex.com' };
+const port = 8100;
+
+const targetMap = new Map();
+targetMap.set('binance', 'https://api.binance.com');
+targetMap.set('bitmex', 'https://www.bitmex.com');
+targetMap.set('huobi', 'https://api.hbdm.com');
 
 module.exports = {
-  config
+  port, targetMap
 };

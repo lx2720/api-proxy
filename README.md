@@ -1,4 +1,4 @@
-# proxy
+# api proxy
 
 ```shell
 npm install
